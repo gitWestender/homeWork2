@@ -6,6 +6,7 @@ public class Variables {
         task4();
         task5();
         task6();
+        task7();
     }
 
     public static void task1() {
@@ -61,5 +62,14 @@ public class Variables {
         var secondBoxer = 82.7;
         System.out.println("Общий вес боксеров: " + (firstBoxer + secondBoxer));
         System.out.println("Разница в весе боксеров: " + (secondBoxer - firstBoxer) + "\n");
+    }
+
+    public static void task7() {
+        System.out.println("Задача 7");
+        var firstBoxer = 78.2;
+        var secondBoxer = 82.7;
+        System.out.println("Разница в весе спортсменов");
+        System.out.println("Первый способ: " + (secondBoxer - firstBoxer));
+        System.out.println("Второй способ: " + (secondBoxer % firstBoxer) + "\n");
     }
 }

@@ -11,7 +11,7 @@ public class Variables {
     }
 
     public static void task1() {
-        System.out.println("Задача 1");
+        System.out.println("Задача 1:");
         var dog = 8.0;
         var cat = 3.6;
         var paper = 763789;
@@ -21,7 +21,7 @@ public class Variables {
     }
 
     public static void task2() {
-        System.out.println("Задача 2");
+        System.out.println("Задача 2:");
         var dog = 8.0;
         var cat = 3.6;
         var paper = 763789;
@@ -31,7 +31,7 @@ public class Variables {
     }
 
     public static void task3() {
-        System.out.println("Задача 3");
+        System.out.println("Задача 3:");
         var dog = 8.0;
         var cat = 3.6;
         var paper = 763789;
@@ -41,7 +41,7 @@ public class Variables {
     }
 
     public static void task4() {
-        System.out.println("Задача 4");
+        System.out.println("Задача 4:");
         var friends = 19;
         System.out.println(friends);
         System.out.println(friends += 2);
@@ -49,7 +49,7 @@ public class Variables {
     }
 
     public static void task5() {
-        System.out.println("Задача 5");
+        System.out.println("Задача 5:");
         var frog = 3.5;
         System.out.println(frog);
         System.out.println(frog *= 10);
@@ -58,7 +58,7 @@ public class Variables {
     }
 
     public static void task6() {
-        System.out.println("Задача 6");
+        System.out.println("Задача 6:");
         var firstBoxer = 78.2;
         var secondBoxer = 82.7;
         System.out.println("Общий вес боксеров: " + (firstBoxer + secondBoxer));
@@ -66,7 +66,7 @@ public class Variables {
     }
 
     public static void task7() {
-        System.out.println("Задача 7");
+        System.out.println("Задача 7:");
         var firstBoxer = 78.2;
         var secondBoxer = 82.7;
         System.out.println("Разница в весе спортсменов");
@@ -75,7 +75,7 @@ public class Variables {
     }
 
     public static void task8() {
-        System.out.println("Задача 8");
+        System.out.println("Задача 8:");
         var hours = 640;
         var employees = (hours / 8);
         System.out.println("Всего работников в компании - " + employees + " человек");

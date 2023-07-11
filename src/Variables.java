@@ -4,6 +4,7 @@ public class Variables {
         task2();
         task3();
         task4();
+        task5();
     }
 
     public static void task1() {
@@ -42,5 +43,14 @@ public class Variables {
         System.out.println(friends);
         System.out.println(friends += 2);
         System.out.println((friends /= 7) + "\n");
+    }
+
+    public static void task5() {
+        System.out.println("Задача 5");
+        var frog = 3.5;
+        System.out.println(frog);
+        System.out.println(frog *= 10);
+        System.out.println(frog /= 3.5);
+        System.out.println((frog += 4) + "\n");
     }
 }

@@ -7,6 +7,7 @@ public class Variables {
         task5();
         task6();
         task7();
+        task8();
     }
 
     public static void task1() {
@@ -71,5 +72,14 @@ public class Variables {
         System.out.println("Разница в весе спортсменов");
         System.out.println("Первый способ: " + (secondBoxer - firstBoxer));
         System.out.println("Второй способ: " + (secondBoxer % firstBoxer) + "\n");
+    }
+
+    public static void task8() {
+        System.out.println("Задача 8");
+        var hours = 640;
+        var employees = (hours / 8);
+        System.out.println("Всего работников в компании - " + employees + " человек");
+        employees += 94;
+        System.out.println("Если в компании работает " + employees + " человек, то всего " + (hours / employees) + " часов работы может быть поделено между сотрудниками");
     }
 }

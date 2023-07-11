@@ -3,6 +3,7 @@ public class Variables {
         task1();
         task2();
         task3();
+        task4();
     }
 
     public static void task1() {
@@ -33,5 +34,13 @@ public class Variables {
         System.out.println(dog -= 3.5);
         System.out.println(cat -= 1.6);
         System.out.println((paper -= 7639) + "\n");
+    }
+
+    public static void task4() {
+        System.out.println("Задача 4");
+        var friends = 19;
+        System.out.println(friends);
+        System.out.println(friends += 2);
+        System.out.println((friends /= 7) + "\n");
     }
 }

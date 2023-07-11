@@ -5,6 +5,7 @@ public class Variables {
         task3();
         task4();
         task5();
+        task6();
     }
 
     public static void task1() {
@@ -52,5 +53,13 @@ public class Variables {
         System.out.println(frog *= 10);
         System.out.println(frog /= 3.5);
         System.out.println((frog += 4) + "\n");
+    }
+
+    public static void task6() {
+        System.out.println("Задача 6");
+        var firstBoxer = 78.2;
+        var secondBoxer = 82.7;
+        System.out.println("Общий вес боксеров: " + (firstBoxer + secondBoxer));
+        System.out.println("Разница в весе боксеров: " + (secondBoxer - firstBoxer) + "\n");
     }
 }

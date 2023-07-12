@@ -8,6 +8,8 @@ public class Variables {
         task6();
         task7();
         task8();
+
+        System.out.println("Конец домашней работы"); //добавленно для коммита
     }
 
     public static void task1() {
